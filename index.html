@@ -10,14 +10,14 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
     <!-- style.css -->
 
-    <link rel="stylesheet" crossorigin href="/gaable-meet-tailwindcss-learning/assets/index-l2R9cQJr.css">
+    <link rel="stylesheet" crossorigin href="/gaable-meet-tailwindcss-learning/assets/index-DOrPzkdq.css">
   </head>
   
   <body class="overflow-x-hidden">
     
     <!-- header section -->
     <header class="sticky top-0 z-50 bg-white">
-      <div class="px-2 sm:px-4 py-3 mx-auto">
+      <div class="px-3 sm:px-4 py-3 mx-auto">
     
         <!-- navigation bar -->
         <nav class="flex justify-between items-center">
@@ -30,14 +30,14 @@
     
         <!-- right navigation -->
         <div class="flex items-center space-x-1 sm:space-x-3 mx-2 sm:mx-5 ">
-        <div class="flex items-center mr-8 ">
+        <div class="hidden sm:flex items-center mr-8 ">
           <span class="material-symbols-outlined text-gray-600 px-3 py-3 hover:bg-gray-300 hover:rounded-full">help</span>
           <span class="material-symbols-outlined text-gray-600 px-3 py-3 hover:bg-gray-300 hover:rounded-full">feedback</span>
           <span class="material-symbols-outlined text-gray-600 px-3 py-3 hover:bg-gray-300 hover:rounded-full">settings</span>
         </div>
         <div class="flex items-center space-x-2 mr-0" >
           <span class="material-symbols-outlined text-gray-600 px-3 py-3 hover:bg-gray-300 hover:rounded-full">apps</span>
-          <span class="w-10 h-10"><img src="./profile.png" alt="profile" class="p-1 hover:bg-gray-300 hover:rounded-full rounded-full">  </span>
+          <span class="w-9 h-9 sm:w-10 sm:h-10"><img src="./profile.png" alt="profile" class="p-1 hover:bg-gray-300 hover:rounded-full rounded-full">  </span>
         </div></div>
         </nav>
       </div>
@@ -47,10 +47,10 @@
     <div class="flex min-h-screen">
      
     <!-- sidebar -->
-    <aside class="hidden md:flex flex-col bg-white border-r border-white w-20 sm:w-60 py-4 px-0 space-y-4">
+    <aside class="hidden md:flex flex-col bg-white border-r border-white w-20 sm:w-60 py-4  space-y-3">
     <a href="#meetings" class="flex items-center gap-4 text-blue-600 bg-blue-100 hover:text-blue-700 px-2 py-2 rounded-r-full">
     <span class="material-symbols-outlined text-3xl">event</span>
-        <span class="text-ml font-medium  mt-1">Meetings</span>
+        <span class="text-ml font-medium hidden sm:block mt-1">Meetings</span>
     </a>
       
       <a href="#calls" class="flex items-center gap-4 text-gray-600 hover:text-blue-600 px-2 py-2 rounded-r-full">
@@ -67,18 +67,18 @@
         
         <!-- hero-heading -->
         <div class="flex flex-col items-center text-center mx-4">
-          <h2 class="text-4xl sm:text-5xl p-2 w-full max-w-[600px] font-normal">Video calls and meetings for everyone</h2>
-        <p class="tex-xl sm:text-2xl text-gray-600 p-3 w-full max-w-[600px]">Connect, collaborate and celebrate from anywhere with Gaable Meet </p>
+          <h2 class="text-3xl sm:text-5xl p-2 w-full max-w-[600px] font-normal">Video calls and meetings for everyone</h2>
+        <p class="tex-lg sm:text-2xl text-gray-600 p-3 w-full max-w-[600px]">Connect, collaborate and celebrate from anywhere with Gaable Meet </p>
         </div>
         
         <!-- meeting buttons -->
-        <div class="flex flex-col sm:flex-row justify-center m-6 space-y-2 sm:space-y-0 sm:space-x-3 ">
+        <div class="mt-6 flex flex-col sm:flex-row justify-center items-center gap-3 ">
           <button class="flex items-center gap-1 sm:gap-2 bg-blue-600 text-white font-medium rounded-full px-3 sm:px-4 py-2 sm:py-3 hover:shadow hover:bg-blue-500">
             <span class="material-symbols-outlined items-center">video_call</span>New meeting</button>
           <div class="relative max-w-[400px] border border-gray-500 rounded-xl ">
             <span class="absolute left-3 inset-y-0 flex items-center text-gray-500">
             <span class="material-symbols-outlined">keyboard</span></span>
-          <input type="text" class="form-control border-0  rounded-xl p-3 pl-10 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 w-full " id="meetingid" placeholder="Enter a code or link" >
+          <input type="text" class="border-0 rounded-xl p-3 pl-10 w-full focus:outline-none focus:ring-2 focus:ring-blue-500" id="meetingid" placeholder="Enter a code or link" >
 
         </div>
         <button class="text-gray-300 text-sm rounded-full px-4 py-2" disabled>Join</button>
