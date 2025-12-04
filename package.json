@@ -2,7 +2,7 @@
   "name": "tailwindcss-gmeet-cloning",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://Ambigaa.github.io/Gaable-Meet-tailwindcss-learning/",
+  "homepage": "https://Ambigaa.github.io/gaable-meet-tailwindcss-learning/",
   "type": "module",
   "scripts": {
     "dev": "vite",
